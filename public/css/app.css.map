@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACJ,OAAO,EAAE,IAAI;;AAEd,IAAK;EACJ,UAAU,EAAE,OAAO;;ACJpB,SAAU;EACT,YAAY,EAAE,KAAK;EACnB,YAAY,EAAE,GAAG;;AAGlB,UAAW;EACV,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,OAAO",
+"sources": ["../../resources/src/sass/_grid.scss","../../resources/src/sass/_boxes.scss"],
+"names": [],
+"file": "app.css"
+}
