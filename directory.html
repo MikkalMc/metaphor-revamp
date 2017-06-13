@@ -15,7 +15,7 @@
         Typekit.load();
     } catch (e) {}
     </script>
-    <link rel="stylesheet" href="http://cdn.metalab.csun.edu/metaphor/css/metaphor.css">
+    <link rel="stylesheet" href="./bower_components/metaphor/dist/css/metaphor.css">
 </head>
 
 <body>
@@ -39,10 +39,10 @@
     <div class="section">
         <div class="container">
             <div class="row">
-                <div class="col-md-4" style="background-color: lightgrey">
-                    <h1>Reports and Links</h1>
+                <div class="col-md-3">
+                    <h3>Reports and Links</h3>
                     <div class="warp">
-                    <ul class="nav" style="background-color: white;">
+                    <ul class="nav">
                         <li class="nav__item">
                             <a href="" class="nav__link">All Faculty and Staff</a>
                         </li>
@@ -67,6 +67,7 @@
                     </ul>
                     </div>
                 </div>
+                <div class="col-md-1"></div>
                 <div class="col-md-8">
                     <h1>Directory</h1>
                     <hr>
@@ -77,10 +78,21 @@
                         <option value="2">Wookie</option>
                         <option value="3">Sith</option>
                     </select>
+                    <br>
                     <label for="ex1">Use Keyword</label>
                     <input type="text" id="ex1" name="ex1" placeholder="Keyword">
+                    <br>
                     <button role="button" class="btn btn-default">Search</button>
+                    <br>
                 </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p>* To search for students, you must be connected to the campus network
+                * Searches are not case sensitive</p>
+                * Use the Return button not your browser's back/forward button
+                Need Help? Contact the IT Help Center (818-677-1400)</p>
+              </div>
             </div>
         </div>
     </div>
